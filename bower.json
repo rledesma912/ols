@@ -1,0 +1,27 @@
+{
+  "name": "ols",
+  "description": "one fase dinamyc project",
+  "main": "index.html",
+  "authors": [
+    "L y S"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular2",
+    "bootstrap",
+    "flexbox"
+  ],
+  "homepage": "https://github.com/rledesma912/ols",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "tether": "^1.4.3",
+    "bootstrap": "^3.3.7"
+  }
+}
