@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   width: 100%;
-  padding: 20px 0;
+  padding: 0px 0;
   z-index: 1001;
   background: #fff;
   webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
@@ -116,6 +116,10 @@ h1, h2, h3, h4, h5, h6, figure {
     padding: 20px 0;
   }
 }
+
+img .logo {
+  background-color: yellow;
+}
 .gtco-nav #gtco-logo {
   font-size: 20px;
   margin: 0;
@@ -123,10 +127,8 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   font-weight: bold;
 }
-.gtco-nav #gtco-logo em {
-  color: #00B906;
-}
 .gtco-nav a {
+  display: inline-block;
   padding: 0px 10px;
   color: #000;
 }
