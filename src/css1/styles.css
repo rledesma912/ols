@@ -117,29 +117,27 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-img .logo {
-  background-color: yellow;
-}
 .gtco-nav #gtco-logo {
   font-size: 20px;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .gtco-nav a {
-  display: inline-block;
-  padding: 0px 10px;
+  /*display: inline-block;*/
   color: #000;
 }
+
 @media screen and (max-width: 768px) {
   .gtco-nav .menu-1, .gtco-nav .menu-2 {
     display: none;
   }
 }
 .gtco-nav ul {
-  padding: 0;
-  margin: 2px 0 0 0;
+  padding: 10px;
+  margin: 15px 0 0 0;
 }
 .gtco-nav ul li {
   padding: 0;
@@ -660,7 +658,7 @@ form label {
 #gtco-footer,
 #gtco-faq,
 .gtco-section {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
   position: relative;
 }
@@ -1681,8 +1679,8 @@ form label {
 }
 
 .owl-theme .owl-dots {
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;
+  bottom: 0;*/
   width: 100%;
   text-align: center;
 }
@@ -1701,6 +1699,7 @@ form label {
   transition: 0.2s;
   border: 2px solid transparent;
 }
+
 .owl-theme .owl-dots .owl-dot span:hover {
   background: none;
   border: 2px solid #00B906;
