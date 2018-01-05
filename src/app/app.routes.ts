@@ -1,11 +1,9 @@
 import { RouterModule, Routes } from '@angular/router';
 
 import { HomeComponent } from './components/home/home.component';
-import { RegistracionComponent } from './components/registracion/registracion.component';
 
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
-  { path: 'registracion', component: RegistracionComponent },
   //esto es para las urls que no matchean con nada vayan al home
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];

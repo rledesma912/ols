@@ -1,4 +1,18 @@
 
 
-<h1>{{title}}</h1>
-<router-outlet></router-outlet>
+<h5>{{title}}</h5>
+<div class="gtco-loader"></div>
+
+<div id="page">
+  <app-navbar></app-navbar>
+
+  <router-outlet></router-outlet>
+
+  <hr>
+  <app-footbar></app-footbar>
+</div>
+
+
+<div class="gototop js-top">
+  <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+</div>

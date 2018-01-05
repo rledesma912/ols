@@ -7,14 +7,16 @@ import { FormsModule } from '@angular/forms';
 import { APP_ROUTING } from './app.routes';
 
 import { AppComponent } from './app.component';
-import { RegistracionComponent } from './components/registracion/registracion.component';
 import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { FootbarComponent } from './components/shared/footbar/footbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegistracionComponent,
-    HomeComponent
+    HomeComponent,
+    NavbarComponent,
+    FootbarComponent
   ],
   imports: [
     BrowserModule,
