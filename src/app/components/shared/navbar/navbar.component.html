@@ -20,27 +20,21 @@
           <!-- <li><a href="#" data-nav-section="how-it-works">Nosotros</a></li> -->
           <li><a href="#" data-nav-section="faq">FAQ</a></li>
             <!-- <li><a href="#" data-nav-section="products">Productos</a></li> -->
-          <li><a href="#" data-nav-section="signup" >SignUp</a></li>
+          <!-- <li><a href="#" data-nav-section="signup" >SignUp</a></li> -->
           <li><a href="#" data-nav-section="contacto">Contacto</a></li>
           <!-- <li><a href="#" routerLink="/registracion" >SignUpDude</a></li>           -->
-          <li><a href="http://gettemplates.co" class="external" title="You will be navigated to the external pages">Login</a></li>
+          <li>
+            <!-- <a href="http://gettemplates.co" class="external" title="You will be navigated to the external pages">Login</a> -->
+            <a class="external" [routerLink]="['login']" title="">Login</a>
+          </li>
           <li class="btn-cta">
-            <a routerLink="/registracion" class="external" title="You will be navigated to the external pages"><span>Sign up for free</span></a></li>
+            <!-- <a href="#" data-nav-section="signup" class="external" title=""><span>Sign up for free</span></a></li> -->
+            <a href="#" data-nav-section="signup" title=""><span>Sign up for free</span></a></li>
           </ul>
 
           <ul *ngIf="ruta !== '/home'">
-            <li class="active"><a routerLink="/home/#contact" >Inicio</a></li>
-            <li><a href="#" data-nav-section="service">Servicios</a></li>
-            <li><a href="#" data-nav-section="how-it-works">Nosotros</a></li>
-            <li><a href="#" data-nav-section="faq">FAQ</a></li>
-            <li><a href="#" data-nav-section="products">Productos</a></li>
-            <li><a href="#" data-nav-section="contacto">Contacto</a></li>
-            <li><a href="#" routerLink="/registracion" >SignUp</a></li>
-            <li><a href="http://gettemplates.co" class="external" title="You will be navigated to the external pages">Login</a></li>
-            <li class="btn-cta">
-              <a routerLink="/registracion" class="external" title="You will be navigated to the external pages"><span>Sign up for free</span></a></li>
-            </ul>
-          </div>
+          </ul>
+        </div>
         </div>
       </div>
     </nav>
